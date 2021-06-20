@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+h2 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+h1{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}   
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 95%; 
+}
+.concepto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  position:absolute;
+  top: 84%;
+  left:38%;
+  padding: 10px 50px;
+  opacity: 1;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 3.25rem;
+  border-radius: 12px;
+
+}
+#botoon{
+  top: 38%;
+}
+button:hover{
+  background-color: lightgray;
+  
+}
+
+#credits p{
+  font-size: small;
+}

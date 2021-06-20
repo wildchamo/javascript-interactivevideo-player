@@ -1,0 +1,69 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaghetti a la bolognesa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="scripts/player.js">
+    <script>
+        function show(shown, hidden) {
+          document.getElementById(shown).style.display='block';
+          document.getElementById(hidden).style.display='none';
+          return false;
+        }
+        </script>
+</head>
+<body onload="initPlayer()">
+    <script src="scripts/player.js"></script>
+    
+    <div id="Page1">
+        <h1>SPAGHETTI A LA BOLOGNESA</h1>
+    <div>
+        <p>¿Tienes los conocimientos suficientes para preparar una deliciosa pasta bolognesa?  </p>
+        <p>¡Vamos a probarlo por medio de este video interactivo!</p>
+        <br>
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div id="credits">
+            <p>Universidad Autonoma de Occidente </p>
+            <p>Proyecto final taller audio y video</p>
+            <p>Desarrollado por: Sebastian Ordóñez Vargas</p>
+        </div>
+      </div>
+        <a href="#" onclick="return show('Page2','Page1');" >
+        <button id="botoon"  onclick="botoon.remove()">Iniciar experiencia</button>
+        </a>
+      </div>
+    
+      <div id="Page2" style="display:none">
+        <div id="title">
+            <h1>SPAGHETTI A LA BOLOGNESA</h1>
+        <div>
+        <div id="video">
+            
+            <video src="videospasta/1.mp4" controls preload="auto" id="mivideo" >
+            
+            </video>
+        </div>
+    
+       <div></div>
+   
+    
+
+  
+
+   
+</body>
+</html>
