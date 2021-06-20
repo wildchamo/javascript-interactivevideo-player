@@ -317,20 +317,21 @@ function initPlayer(){
         btn2.style.margin= "0.4em auto";
         document.body.appendChild(btn2);
 
-        btn1.onclick=function(){
-            video.src="videospasta/13.mp4";
-            video.play();
-            btn1.remove();
-            btn2.remove();
-            player.videoPlaying=13;
-        }
-        btn2.onclick=function(){
+      btn1.onclick=function(){
             video.src="videospasta/10.mp4";
             video.play();
             btn1.remove();
             btn2.remove();
             player.videoPlaying=10;
         }
+        btn2.onclick=function(){
+            video.src="videospasta/13.mp4";
+            video.play();
+            btn1.remove();
+            btn2.remove();
+            player.videoPlaying=13;
+        }
+
     }
 
 
